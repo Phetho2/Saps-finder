@@ -1,0 +1,36 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+
+.header {
+    display: flex;
+    gap: 1rem;
+    color: white;
+    padding: 1rem 2rem;
+}
+.header h3 {
+    margin-top: 0.4rem;
+}
+.about {
+    margin: 1.5rem 2.5rem;
+}
+.about h3 {
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and ( max-width: 570px) {
+    .header h3 {
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+    .header img {
+        width: 30px;
+    }
+    .about h3 {
+        font-size: 1rem;
+    }
+}

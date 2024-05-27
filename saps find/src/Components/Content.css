@@ -1,0 +1,115 @@
+.cards-container {
+    margin: 5rem ;
+
+}
+.cards {
+    width: 100%;
+    margin: 1rem ;
+    display: grid;
+    justify-items: center;
+    column-gap: 2rem ;
+    grid-gap: 1.5rem;
+    padding: 2rem 0.5rem;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, 300px);
+    
+}
+.card {
+    box-shadow: 0px 142px -20px rgba(0, 0, 0 ,0.45),
+    25px 0px 20px -20px rgba(0, 0, 0 ,0.45),
+    0px 25px 20px -20px rgba(0, 0, 0 ,0.45),
+    -25px 0px 20px -20px rgba(0, 0, 0 ,0.45);
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    padding: 2rem;
+    align-items: center;
+    text-align: center;
+    
+}
+.card img {
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    text-align: center;
+}
+.search {
+    display: flex;
+    justify-content: center;
+    gap:1rem;
+}
+.search input {
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    padding: 0.5rem;
+}
+.search button {
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    padding: 0.5rem;
+}
+.search select {
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    padding: 0.5rem;
+}
+.strong {
+    font-weight: bold;
+}
+.card button {
+    font-family: "Kaisei Decol", serif;
+    margin-top: 1rem;
+    padding: 0.2rem 1.5rem;
+    border-radius: 10px;
+    border: none;
+    font-weight: bolder;
+    font-size: 18;
+    color: white;
+    background-color: rgb(112, 66, 250);
+}
+.card button:hover {
+    cursor: pointer;
+    background-color: rgb(12, 24, 252);
+    transform: scale(1.1);
+}
+
+
+@media screen and ( max-width: 570px) {
+    .search  {
+        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 2fr;
+        margin-top: 0;
+    }
+    .search span {
+        display: none;
+    }
+    .cards-container {
+        margin: 2rem;
+        align-items: center;
+    }
+    .cards {
+        justify-content: center;
+        align-self: center;
+        margin-inline: 0;
+    }
+}
+
+@media screen and ( max-width: 880px) {
+    .search {
+        flex-direction: column;
+    }
+    .search span {
+        display: none;
+    }
+    .search span {
+        display: none;
+    }
+    .search span {
+        display: none;
+    }
+}

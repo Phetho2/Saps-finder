@@ -1,0 +1,18 @@
+.about-wrapper {
+    margin-top: 2rem;
+    align-items: center;
+    text-align: center;
+    font-family: "Kaisei Decol", serif;
+    margin-inline: 5rem;
+    font-size: 1.2rem;
+}
+.about-wrapper button {
+    padding: 5px 20px;
+    margin-top: 2rem;
+    background-color: rgb(123, 123, 234);
+    border: none;
+    border-radius: 10px;
+}
+.about-wrapper h5 {
+    font-weight: bold;
+}
