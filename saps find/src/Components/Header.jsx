@@ -1,4 +1,3 @@
-import React from 'react'
 import '../Components/Header.css'
 import logo from '../assets/1200px-SAPS_badge.svg.png'
 import { Link } from 'react-router-dom';
